@@ -8,7 +8,7 @@ class Image
   def output_image
     image.each do |x|
       x.each do |cell|
-        print cell.to_s + " "
+        print cell.to_s
       end
       puts
     end
